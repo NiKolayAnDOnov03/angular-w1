@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding:0;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(35deg,#0B50EF , #DC00E7 );
+}
+.info {
+    display: flex;
+    gap:2rem;
+    color:#fff;
+}
+.inspiration{
+    display: grid;
+    place-items:center;
+    color:#fff;
+}
+.inspiration_person{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4rem;
+}
+.hobbys{
+    display:grid;
+    place-items:center;
+    gap:4rem;
+}
+.me{
+    width: 200px;
+    height: 200px;
+    border: solid 3px black;
+    border-radius: 50% ;
+}
+.ispPersonImage{
+    width: 200px;
+    height: 200px;
+    border: solid 3px black;
+    border-radius: 50% ;
+}
+.dividingLine{
+    margin:0;
+    color: #000;
+}
+.h1Titles{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.imagesHobbys{
+    display: flex;
+    gap:4rem;
+}
+.links{
+    display: flex;
+    gap:4rem;
+}
+a{
+    text-decoration: none;
+}
+.fa-facebook{
+    color: #000;
+    font-size: 2rem;
+}
+.fa-instagram{
+    color: #000;
+    font-size: 2rem;
+}
+.fa-youtube{
+    color: #000;
+    font-size: 4rem;
+}
+.imageHB{
+    width: 400px;
+    height: 300px;
+}
